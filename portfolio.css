@@ -78,6 +78,9 @@ button {
 
 img {
     float: left;
+    width: 300px;
+    height: 300px;
+    margin: 1em;
 }
 footer {
     width:100%;
