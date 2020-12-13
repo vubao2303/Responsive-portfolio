@@ -79,7 +79,7 @@ This is an Image
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://vubao2303.github.io/responsive-portfolio/)
 
 
 ## Authors

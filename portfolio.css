@@ -1,0 +1,23 @@
+#container {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1:after {
+
+    position: absolute;
+
+    left: 0;
+    width: 90%;
+    border-bottom: 3px solid red;
+  }
+
+  .image {
+    width:100px;
+    height:100px;
+    background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
+  }
+  .nav-brand{
+    margin-left: ($spacer * .25) !important;
+  }
