@@ -8,15 +8,44 @@ header {
     color: teal;
     
 }
-
-.button {
-    background-color: teal;
+body {
+    background-color: whitesmoke;
 }
+
+hr {
+    border-bottom-width: 5px;
+    Color: teal;
+    border-style: solid;
+
+}
+#left {
+    float: left;
+    padding: 0 10px 0 0;}
+.btn-default
+
+ 
+{  background-color: teal;
+    background-repeat: repeat-x;
+    background-image: teal 
+    border-color: #2f080e #2f080e hsl(351, 68%, 1.5%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+  }
+
+  .btn-primary {
+    background-color: teal;
+    background-repeat: repeat-x;
+    background-image: teal; 
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+  }
+
+
   h1:after {
 
     left: 2rem;
     width: 90%;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid teal;
   }
 
   .image {
@@ -39,4 +68,16 @@ header {
 .card {
     margin-top: 20 rem;
     margin-left: 2 rem;
+}
+
+img {
+    float: left;
+}
+footer {
+    border-top: 1px solid teal;
+    border-width: 5px;
+    color: teal;
+    background: darkslategray;
+    margin-bottom:1px;
+    padding: 1em;
 }
