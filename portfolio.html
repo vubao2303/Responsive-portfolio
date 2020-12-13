@@ -9,80 +9,104 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="portfolio.css">
     <title>Portfolio</title>
-    <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button type="submit"  style ="margin-left:20px; margin-top: 5px;">B TRAM VU</button><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            </ul>
-            <ul class="nav justify-content-end">
-                    
-              <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
-              </li>
-          </ul>
+  
+   <!-- create nav bar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- create button for name -->
+      <button type="submit" class="btn btn-primary" style ="margin-left:20px; margin-top: 5px;">B TRAM VU</button><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- end button  -->
+
+      <!-- create links to hamburger menu -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <!-- make content go the the end of the nav bar -->
+        <ul class="nav justify-content-end"> 
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link" href="#">About Me</a>
           </div>
-        </div>
-    </nav>
+        </ul>  
+      </div>
+      <!-- end hamburger menu  -->
+    </div>
+  </nav>
+  <!--  end nav bar -->
+    
 
   </head>
   <body>
-    <!-- add card -->
-    <div class="card mb-5" style="max-width: 30rem; margin-left:2rem; margin-top:3rem">
-        <header>
-            <div class="row" style="margin-left:1rem">
-                <h1> Portfolio</h1>
-            </div>
-        </header>
-        <div class="container" style= "max-width:24rem;">
-            <div class="row">
-            <div class="col-md-6"> 
-                <div class= "img1">
-                    <img id="bio-image" src="https://placehold.it/300x300" alt="Your Name"></div>
-            </div>
-            <div class="col-md-6 col-sm-6"> 
-                <div class= "img1">
-                    <img id="bio-image" src="https://placehold.it/300x300" alt="Your Name"></div>
-            </div>
-            </div>
+    <!-- Putting content in card -->
+    <div class="container">
+      <div class="card mb-5" style ="margin-top: 2rem;" >
+      <header>
+          <div class="row" style="margin-left:1rem">
+              <h1> Portfolio</h1>
+          </div>
+      </header>
+     
+        <div class="row" style="margin-right:2rem">
 
-            <div class= "row">
-            <div class="col-md-6 col-sm-12 col-xs-12"> 
-                <div class="img">
-                    <img id="bio-image" src="https://placehold.it/300x300" alt="Your Name"></div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12"> 
-                <div>
-                    <img id="bio-image" src="https://placehold.it/300x300" alt="Your Name"></div>
-            </div>
-            <div>
-            <div class="col-md-6 col-sm-12 col-xs-12"> 
-                <div class="img">
-                <img id="bio-image" src="https://placehold.it/300x300" alt="Your Name"></div>
-            </div>
-            </div>
-            </div>
+        <div class="col-md-6 col-sm-12 col-xs-12"> 
+          <div class="img" style= "margin: 1rem">
+            <img src="https://placehold.it/300x300" class="img-fluid" alt="...">
+      </div>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12"> 
+        <div class="img" style= "margin: 1rem">
+          <img src="https://placehold.it/300x300" class="img-fluid" alt="...">
+    </div>
+    </div>
+        </div>
+        <!-- done row 1  -->
+
+        <!-- start row 2 -->
+        <div class= "row" style="margin-right:2rem"">
+          
+          <div class="col-md-6 col-sm-12 col-xs-12"> 
+              <div class="img" style= "margin: 1rem">
+                <img src="https://placehold.it/300x300" class="img-fluid" alt="...">
+          </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12"> 
+            <div class="img" style= "margin: 1rem">
+              <img src="https://placehold.it/300x300" class="img-fluid" alt="...">
+        </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12"> 
+          <div class="img" style= "margin: 1rem">
+            <img src="https://placehold.it/300x300" class="img-fluid" alt="...">
+      </div>
+      </div>
         </div>
 
+        <!-- done row 2 -->
+      </div>
+      </div>
+    </div>
+  
+  
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
-  </body>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  -->
+ 
+</body>
+<footer> 
+    <div class="text-center"> 
+    <p>@Copyright</p>
+</div>
+</footer>
 </html>

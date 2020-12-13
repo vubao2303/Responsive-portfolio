@@ -13,61 +13,67 @@
 
     <title>Contacts</title>
 
+    <!-- create nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button type="submit" class="btn btn-primary" style ="margin-left:20px; margin-top: 5px;">B TRAM VU</button><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            </ul>
-            <ul class="nav justify-content-end">
-                    
-              <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
-              </li>
+      <div class="container-fluid">
+        <!-- create button for name -->
+        <button type="submit" class="btn btn-primary" style ="margin-left:20px; margin-top: 5px;">B TRAM VU</button><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- end button  -->
+
+        <!-- create links to hamburger menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           </ul>
-          </div>
+          <!-- make content go the the end of the nav bar -->
+          <ul class="nav justify-content-end"> 
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#">About Me</a>
+            </div>
+          </ul>  
         </div>
+        <!-- end hamburger menu  -->
+      </div>
     </nav>
+    <!--  end nav bar -->
   </head>
+
   <body>
-      <!-- Putting content in card -->
+    <!-- Putting content in card -->
     <div class="card mb-5" style="max-width: 30rem; margin-left:2rem; margin-top:5rem">
-        <!-- row 1 for Contact  -->
-        <header>
+      <!-- row 1 for Contact  -->
+      <header>
         <div class="row" style="margin-left:1rem">
-            <h1> Contact</h1>
+          <h1> Contact</h1>
         </div>
         </header>
 
-        <!-- row 2 for content using bootstrap form -->
-        <div class= "row" style="margin: 2rem">
-            <div class="mb-3">
-        <label for="exampleInputname" class="form-label">Name</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-            </div>
-            <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email </label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-            </div>
+      <!-- row 2 for content using bootstrap form -->
+      <div class= "row" style="margin: 2rem">
+        <div class="mb-3">
+          <label for="exampleInputname" class="form-label">Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email </label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+        </div>
             
-            <div class="form-group" style="margin-bottom: 1rem">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder= "Message" rows="3"></textarea>
-            </div>
+        <div class="form-group" style="margin-bottom: 1rem">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder= "Message" rows="3"></textarea>
+        </div>
         
         <!-- summit buttons -->
-            <div col-md-2 class="button">
-        <button type="submit" class="btn btn-default">Submit</button>
-            </div>
+        <div col-md-2 class="button">
+          <button type="submit" class="btn btn-default">Submit</button>
         </div>
+      </div>
+      <!-- end form -->
     </div>
     
     
