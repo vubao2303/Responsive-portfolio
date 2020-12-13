@@ -5,6 +5,8 @@
   
 header {
     color: teal;
+    padding: 1rem;
+    font-family: 'Andika New Basic', sans-serif;
     
 }
 
@@ -44,7 +46,7 @@ button {
     background-image: teal; 
   
   }
-
+  
 
   h1:after {
 
