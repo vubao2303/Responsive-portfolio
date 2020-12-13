@@ -4,13 +4,19 @@
     text-align: center;
   }
   
+header {
+    color: teal;
+    
+}
+
+.button {
+    background-color: teal;
+}
   h1:after {
 
-    position: absolute;
-
-    left: 0;
+    left: 2rem;
     width: 90%;
-    border-bottom: 3px solid red;
+    border-bottom: 0.5px solid black;
   }
 
   .image {
@@ -21,3 +27,16 @@
   .nav-brand{
     margin-left: ($spacer * .25) !important;
   }
+
+
+  h1:after
+{
+    content:' ';
+    display:block;
+    border-left:0.5px solid black;
+}
+
+.card {
+    margin-top: 20 rem;
+    margin-left: 2 rem;
+}
