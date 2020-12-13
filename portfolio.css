@@ -8,8 +8,10 @@ header {
     color: teal;
     
 }
+
 body {
     background-color: whitesmoke;
+    background-image: url"500_F_124580622_omuq5mRFfXmVbcNqrRxdsnKyQzRIAo9o.jpg;";
 }
 
 hr {
@@ -18,6 +20,11 @@ hr {
     border-style: solid;
 
 }
+button {
+    background-color: teal;
+    color: white;
+}
+
 #left {
     float: left;
     padding: 0 10px 0 0;}
@@ -26,18 +33,17 @@ hr {
  
 {  background-color: teal;
     background-repeat: repeat-x;
-    background-image: teal 
-    border-color: #2f080e #2f080e hsl(351, 68%, 1.5%);
-    color: #fff !important;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+    background-image: teal; 
+    color:whiw
+    
+    
   }
 
   .btn-primary {
     background-color: teal;
     background-repeat: repeat-x;
     background-image: teal; 
-    color: #fff !important;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+  
   }
 
 
@@ -74,10 +80,10 @@ img {
     float: left;
 }
 footer {
+    width:100%;
     border-top: 1px solid teal;
     border-width: 5px;
     color: teal;
     background: darkslategray;
-    margin-bottom:1px;
     padding: 1em;
 }
