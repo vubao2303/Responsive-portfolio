@@ -4,9 +4,9 @@
 }
   
 header {
-    color: teal;
+    color: #20B2AA;
     padding: 1rem;
-    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'Playfair Display', serif;
     
 }
 
@@ -17,12 +17,12 @@ body {
 
 hr {
     border-bottom-width: 5px;
-    Color: teal;
+    Color: #20B2AA;
     border-style: solid;
 
 }
 button {
-    background-color: teal;
+    background-color: #20B2AA;
     color: white;
 }
 
@@ -32,18 +32,18 @@ button {
 .btn-default
 
  
-{  background-color: teal;
+{  background-color: #20B2AA;
     background-repeat: repeat-x;
-    background-image: teal; 
+    background-image: #20B2AA; 
     color:white;
     
     
   }
 
   .btn-primary {
-    background-color: teal;
+    background-color: #20B2AA;
     background-repeat: repeat-x;
-    background-image: teal; 
+    background-image: #20B2AA; 
   
   }
   
@@ -52,7 +52,7 @@ button {
 
     left: 2rem;
     width: 90%;
-    border-bottom: 0.5px solid teal;
+    border-bottom: 0.5px solid #20B2AA;
   }
 
   .image {
@@ -85,9 +85,9 @@ img {
 }
 footer {
     width:100%;
-    border-top: 1px solid teal;
+    border-top: 1px solid #20B2AA;
     border-width: 5px;
-    color: teal;
+    color: #20B2AA;
     background: darkslategray;
     padding: 1em;
 }

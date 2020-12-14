@@ -8,13 +8,21 @@ This profect focused on building a responsive website that creates dynamic chang
 # Table of contents 
 [Tittle](../blob/main/Responsive-portfolio)
 
-[Site Picutre](../blob/main/readme.htm/Site-picture)
+[Site Picutre](../blob/main/Readme.md/Site-picture)
+
+[Getting Started](../blob/main/Readme.md/Getting-Started)
 
 [Technology use](../blob/main/technology-use)
 
+[Code](../blob/main/code-snippet)
+
 [Deploy link](../blob/main/deploy-link)
 
-[installing](../blob/main/installing)
+[Installing](../blob/main/installing)
+
+[Author](../blob/main/Author)
+
+[License](../blob/main/Readme.md/License)
 
 ## Getting Started
  * Add starter template from Bootstrap
@@ -34,32 +42,6 @@ This profect focused on building a responsive website that creates dynamic chang
 - Git - version control system to track changes to source code
 - GitHub - hosts repository that can be deployed to GitHub Pages
 
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Code Snippet
 Add responsive nav bar
