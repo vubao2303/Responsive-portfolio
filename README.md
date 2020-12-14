@@ -6,41 +6,35 @@ This profect focused on building a responsive website that creates dynamic chang
 ![Site](./992-index.png)
 
 # Table of contents 
-[Tittle](../blob/main/Responsive-portfolio)
+[Tittle](#Responsive-portfolio)
 
-[Site Picutre](../blob/main/Readme.md/Site-picture)
+[Site Picutre](#Site-picture)
 
-[Getting Started](../blob/main/Readme.md/Getting-Started)
+[Getting Started](#Getting-Started)
 
-[Technology use](../blob/main/technology-use)
+[Code Snippet](#Code-Snippet)
 
-[Code](../blob/main/code-snippet)
+[Technology Use](#Technology-Use)
 
-[Deploy link](../blob/main/deploy-link)
+[Deploy link](#Deploy-link)
 
-[Installing](../blob/main/installing)
+[Author](#Author)
 
-[Author](../blob/main/Author)
-
-[License](../blob/main/Readme.md/License)
+[License](#License)
 
 ## Getting Started
  * Add starter template from Bootstrap
  * Construct a semantic layout
- * Add nav bar 
+ * Add nav bar
+ * Insert functional links to nav bar
  * Add container
  * Create card with grid system for more structure layouts 
  * Add values to row and collums for responisveness base on screen's sizes
  * Link pages porperly in heading such as meta tags, Google font link, and css file 
  * Add css file to add more styling 
+ * Style content with css using Google Font, opacity, background image
+ 
   
-
-## Technologies Used
-- HTML - used to create elements on the DOM
-- CSS - styles html elements on page
-- Bootstrap - design and customize responsive site
-- Git - version control system to track changes to source code
-- GitHub - hosts repository that can be deployed to GitHub Pages
 
 
 ## Code Snippet
@@ -78,12 +72,32 @@ Use grid system to divide content into smaller sections to define the relationsh
     </div>        
 </div>
 ```
+Style using css 
+```html
+ header {
+    color: #20B2AA;
+    padding: 1rem;
+    font-family: 'Playfair Display', serif;
+ }
+ #Copyright {
+  opacity: 0.3;
+ }
+```
+    
 
-## Built With
+## Technologies Used
+- HTML - used to create elements on the DOM
+  * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS - styles html elements on page
+  * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- Bootstrap - design and customize responsive site
+  * [Bootstrap](https://getbootstrap.com/)
+- Git - version control system to track changes to source code
+   * [Git](https://git-scm.com/)
+- GitHub - hosts repository that can be deployed to GitHub Pages
+  * [Github](https://github.com/)
+  
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap](https://getbootstrap.com/)
 
 
 ## Deployed Link

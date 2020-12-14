@@ -2,6 +2,8 @@
   width: 60%;
   margin-left: 2rem;
 }
+
+
   
 header {
     color: #20B2AA;
@@ -11,8 +13,8 @@ header {
 }
 
 body {
-    background-color: whitesmoke;
-    background-image: url"500_F_124580622_omuq5mRFfXmVbcNqrRxdsnKyQzRIAo9o.jpg;";
+    
+    background-image: url("500_F_124580622_omuq5mRFfXmVbcNqrRxdsnKyQzRIAo9o.jpeg");
 }
 
 hr {
@@ -21,31 +23,18 @@ hr {
     border-style: solid;
 
 }
+
+
 button {
     background-color: #20B2AA;
     color: white;
+    margin: none;
+    padding:0;
+    border:none;
 }
 
-#left {
-    float: left;
-    padding: 0 10px 0 0;}
-.btn-default
 
- 
-{  background-color: #20B2AA;
-    background-repeat: repeat-x;
-    background-image: #20B2AA; 
-    color:white;
-    
-    
-  }
 
-  .btn-primary {
-    background-color: #20B2AA;
-    background-repeat: repeat-x;
-    background-image: #20B2AA; 
-  
-  }
   
 
   h1:after {
@@ -60,10 +49,7 @@ button {
     height:100px;
     background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
   }
-  .nav-brand{
-    margin-left: ($spacer * .25) !important;
-  }
-
+  
 
   h1:after
 {
@@ -87,7 +73,12 @@ footer {
     width:100%;
     border-top: 1px solid #20B2AA;
     border-width: 5px;
-    color: #20B2AA;
-    background: darkslategray;
+    color:  #50d0c3;
+    background: grey;
     padding: 1em;
+    opacity: 1;
+}
+
+#Copyright {
+  opacity: 0.3;
 }
