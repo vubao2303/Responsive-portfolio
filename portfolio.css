@@ -3,8 +3,19 @@
   margin-left: 2rem;
 }
 
+.navbar-brand { 
+  font-family: 'Playfair Display', serif;
+  padding: 0.3em;
+  background-color: #20B2AA;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom:5px;
 
-  
+}
+
+h3 {
+  color: white; 
+}
 header {
     color: #20B2AA;
     padding: 1rem;
