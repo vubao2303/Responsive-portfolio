@@ -1,22 +1,38 @@
-# Responsive Portfolio (title)
+# Responsive Portfolio 
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+This profect focused on building a responsive website that creates dynamic changes to the apprearance of the portfolite website depending on the devices' size. Using Bootstrap as the main tool to deliver responsive nav bar, images, texts, and layout. 
 
 ## Site Picture
-![Site](./responsive-portfolio/400-index .png)
+![Site](./992-index.png)
+
+# Table of contents 
+[Tittle](../blob/main/Responsive-portfolio)
+
+[Site Picutre](../blob/main/readme.htm/Site-picture)
+
+[Technology use](../blob/main/technology-use)
+
+[Deploy link](../blob/main/deploy-link)
+
+[installing](../blob/main/installing)
+
+## Getting Started
+ * Add starter template from Bootstrap
+ * Construct a semantic layout
+ * Add nav bar 
+ * Add container
+ * Create card with grid system for more structure layouts 
+ * Add values to row and collums for responisveness base on screen's sizes
+ * Link pages porperly in heading such as meta tags, Google font link, and css file 
+ * Add css file to add more styling 
+  
 
 ## Technologies Used
 - HTML - used to create elements on the DOM
 - CSS - styles html elements on page
+- Bootstrap - design and customize responsive site
 - Git - version control system to track changes to source code
 - GitHub - hosts repository that can be deployed to GitHub Pages
-
-
 
 
 ### Prerequisites
@@ -46,36 +62,47 @@ until finished
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Code Snippet
+Add responsive nav bar
 ```html
-<h1>Zoo</h1>
-    <img src="https://ichef.bbci.co.uk/childrens-responsive-ichef-live/r/720/1x/cbbc/the_zoo_who_are_you_quiz_index_new.jpg" alt="zoo">
-    <ul>
-        <li>Lion</li>
-        <li>Elephant</li>
-        <li>Seal</li>
-        <li>Buffalo</li>
-        <li>Giraffe</li>
-        <li>Penguin</li>
-        <li>Turtle</li>
-        <li>Whale</li>
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-nav">
+        <a class="nav-link" href="./contact.html">Contact</a>
+        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
+    </div>
+</nav>
 ```
-
+Add a container surrounding the content and add card for better structure 
 ```html
-<html>
-
-</html>
+<div class="container ">
+  <!-- adding card  -->
+  <div class="card mb-5" style ="margin-top: 2rem; max-width: 700px;">
 ```
-This is an Image
-=================
-![Image](chrome_vGiqS64eLn.png)
-
+Use grid system to divide content into smaller sections to define the relationship between layer, position, and mobile friendly
+```html
+<header class="row" style="margin-left:1rem; margin-right: 1rem;">
+    <h1> About Me</h1>
+</header>
+      
+<div class="row" style="margin-left:1rem; margin-right: 1rem;">
+    <!-- column 1 for content with img -->
+    <div class="col-md-12">
+    <img src="IMG_2804.jpeg" class="img-fluid" alt="girl amongs flowers">
+    <p>Lorem</p>
+    </div>
+    <!-- column 2 for second paragraph -->
+    <div class="col-md-12">
+    <p>Lorem </p>
+    </div>        
+</div>
+```
 
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Bootstrap](https://getbootstrap.com/)
+
 
 ## Deployed Link
 
@@ -90,14 +117,7 @@ This is an Image
 - [Link to Github](https://github.com/vubao2303/responsive-portfolio)
 - [Link to LinkedIn](https://www.linkedin.com/in/tram-vu-866250121/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License 
-
-## Acknowledgments
-
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
-* etc
