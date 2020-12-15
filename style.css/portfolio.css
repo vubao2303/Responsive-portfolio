@@ -1,7 +1,8 @@
-header {
+h1{
   color: #20B2AA;
   padding: 1rem;
   font-family: 'Playfair Display', serif;
+  font-weight: bold;
   
 }
 
@@ -23,13 +24,12 @@ h3 {color: white;
 }
 
 
-
-
 hr {
-    border-bottom-width: 5px;
-    Color: #20B2AA;
-    border-style: solid;
-
+  position: relative;
+  left: 5%;
+  margin-left:1em;
+  color:grey;
+  width:90%;
 }
 
 
@@ -44,28 +44,12 @@ section {
   width: 60%;
 }
 
-  
-
-  h1:after {
-
-    left: 2rem;
-    width: 90%;
-    border-bottom: 0.5px solid #20B2AA;
-  }
-
   .image {
     width:100px;
     height:100px;
     background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
   }
   
-
-  h1:after
-{
-    content:' ';
-    display:block;
-    border-left:0.5px solid black;
-}
 
 .card {
     margin-top: 20 rem;
