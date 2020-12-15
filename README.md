@@ -3,26 +3,26 @@
 This profect focused on building a responsive website that creates dynamic changes to the apprearance of the portfolite website depending on the devices' size. Using Bootstrap as the main tool to deliver responsive nav bar, images, texts, and layout. 
 
 ## Site Picture
-![Site](./992-index.png)
+![Site](style.css/portfolio.png)
 
 # Table of contents 
 [Tittle](#Responsive-portfolio)
 
 [Site Picutre](#Site-picture)
 
-[Getting Started](#Getting-Started)
+[Description of Page Building ](#Description-of-Page-Building )
 
 [Code Snippet](#Code-Snippet)
 
-[Technology Use](#Technology-Use)
+[Technologies Used](#Technologies-Used)
 
-[Deploy link](#Deploy-link)
+[Deployed Link](#Deployed-Link)
 
 [Author](#Author)
 
 [License](#License)
 
-## Getting Started
+## Description of Page Building 
  * Add starter template from Bootstrap
  * Construct a semantic layout
  * Add nav bar
@@ -32,7 +32,8 @@ This profect focused on building a responsive website that creates dynamic chang
  * Add values to row and collums for responisveness base on screen's sizes
  * Link pages porperly in heading such as meta tags, Google font link, and css file 
  * Add css file to add more styling 
- * Style content with css using Google Font, opacity, background image
+ * Style content with css using Google Font, opacity, and background image
+ * Add a set of useful information about the project in Readme file 
  
   
 
@@ -105,7 +106,7 @@ Style using css
 * [See Live Site](https://vubao2303.github.io/responsive-portfolio/)
 
 
-## Authors
+## Author
 
 * **B Tram Vu** 
 
@@ -116,4 +117,4 @@ Style using css
 
 ## License
 
-This project is licensed under the MIT License 
+This project is licensed under the Trilogy Education Services, a 2U, Inc. brand.

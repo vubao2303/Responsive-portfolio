@@ -1,6 +1,8 @@
-.container {
-  width: 60%;
-  margin-left: 2rem;
+header {
+  color: #20B2AA;
+  padding: 1rem;
+  font-family: 'Playfair Display', serif;
+  
 }
 
 .navbar-brand { 
@@ -12,21 +14,16 @@
   margin-bottom:5px;
 
 }
-
-h3 {
-  color: white; 
-}
-header {
-    color: #20B2AA;
-    padding: 1rem;
-    font-family: 'Playfair Display', serif;
-    
-}
-
 body {
     
-    background-image: url("500_F_124580622_omuq5mRFfXmVbcNqrRxdsnKyQzRIAo9o.jpeg");
+  background-image: url("style.css/500_F_124580622_omuq5mRFfXmVbcNqrRxdsnKyQzRIAo9o.jpeg");
 }
+
+h3 {color: white; 
+}
+
+
+
 
 hr {
     border-bottom-width: 5px;
@@ -36,15 +33,16 @@ hr {
 }
 
 
-button {
+.btn-primary {
     background-color: #20B2AA;
     color: white;
-    margin: none;
-    padding:0;
-    border:none;
+   
 }
 
-
+section { 
+  margin-left: 2rem;
+  width: 60%;
+}
 
   
 
