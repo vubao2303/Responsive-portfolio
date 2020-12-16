@@ -3,7 +3,7 @@
 This profect focused on building a responsive website that creates dynamic changes to the apprearance of the portfolite website depending on the devices' size. Using Bootstrap as the main tool to deliver responsive nav bar, images, texts, and layout. 
 
 ## Site Picture
-![Site](style.css/portfolio.png)
+![Site](assets/portfolio.png)
 
 # Table of contents 
 [Tittle](#Responsive-portfolio)
