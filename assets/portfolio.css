@@ -4,6 +4,9 @@ h1{
   font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
+body { 
+  background-image: url("./background.jpeg");
+}
 
 .navbar-brand { 
   font-family: 'Playfair Display', serif;
@@ -12,10 +15,6 @@ h1{
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom:5px;
-}
-
-body {    
-  background-image: url("style.css/500_F_124580622_omuq5mRFfXmVbcNqrRxdsnKyQzRIAo9o.jpeg");
 }
 
 h3 {color: white;}
